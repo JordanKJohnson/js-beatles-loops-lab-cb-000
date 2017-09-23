@@ -28,8 +28,8 @@ function iLoveTheBeatles(num){
   }
   while(i <= num);
  }
- else{
+  else{
    strings.push("I love the Beatles!");
- }
+  }
   return strings;
 }
