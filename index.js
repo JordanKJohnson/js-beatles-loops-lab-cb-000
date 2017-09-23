@@ -21,10 +21,15 @@ function johnLennonFacts(strings){
 function iLoveTheBeatles(num){
   var strings = new Array();
   var i = 0;
+  if (num < 15){
   do{
     strings.push("I love the Beatles!");
     i++;
   }
   while(i <= num);
+ }
+ else{
+   strings.push("I love the Beatles!");
+ }
   return strings;
 }
